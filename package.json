@@ -1,0 +1,23 @@
+{
+  "name": "magazin",
+  "version": "1.0.0",
+  "scripts": {
+    "build:bot": "tsc --project tsconfig.json",
+    "start:bot": "node dist/bot.js",
+    "build:webapp": "vite build",
+    "start:webapp": "vite"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.10",
+    "vite": "^6.3.4",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}
